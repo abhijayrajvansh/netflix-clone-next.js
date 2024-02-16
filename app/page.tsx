@@ -1,5 +1,5 @@
 export default function page () {
   return (
-    <h1>netflix clone next.js</h1>
+    <h1>let's build netflix</h1>
   )
 }
