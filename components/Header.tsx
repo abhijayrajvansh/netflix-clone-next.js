@@ -31,7 +31,9 @@ export default function Header () {
   return (
     <header className={`${isScrolled && 'bg-[#141414]'}`}>
       <div className="flex space-x-2 items-center md:space-x-10">
-        <img src="/images/logo.png" alt="logo" className="cursor-pointer h-6" />
+        <Link href='/'>
+          <img src="/images/logo.png" alt="logo" className="cursor-pointer h-6" />
+        </Link>
         
         <ul className="hidden md:flex space-x-6">
           <li className="headerLink ">Home</li>

@@ -4,11 +4,11 @@
 
 @layer base {
   body {
-    @apply bg-[#141414] text-white
+    @apply bg-[#141414] text-white bg-gradient-to-b from-[#141414] to-[#010511]
   }
 
   header {
-    @apply fixed top-0 z-50 flex w-full items-center justify-between p-4 transition-all sm:px-10 sm:py-5
+    @apply fixed top-0 z-50 flex w-full items-center justify-between p-4 transition-all sm:px-14 sm:py-5
   }
 }
 
