@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Home - Netflix",
+  title: "Netflix",
   description: "Full stack netflix web app clone by Abhijay Rajvansh",
 };
 
